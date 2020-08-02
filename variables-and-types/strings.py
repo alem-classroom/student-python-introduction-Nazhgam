@@ -10,7 +10,7 @@ def duplicate_string(str, copy):
     # example -> duplicate_string('s', 2) == 'ss'
 
 def reverse(str):
-    return reversed(str)
+    return str[::-1]
     # return reverse of the string
 
 def is_substring(str, substr):
