@@ -1,22 +1,27 @@
 def size_of_str(str):
-        return len(str)
+        ans = len(str)
+        return ans
     # return size of string
 
 def concat_strings(first, second):
-      return first + second
+      ans = first + second
+return ans
     # return concatination of first and second strings
 
 def duplicate_string(str, copy):
-      return str*copy
+ans = str*copy      
+return ans
     # return new string which is copy of str copy times
     # example -> duplicate_string('s', 2) == 'ss'
 
 def reverse(str):
-    return str[::-1]
+ans = str[::-1]    
+return ans
     # return reverse of the string
 
 def is_substring(str, substr):
-     return substr in str
+ans = substr in str     
+return ans
     # return true if substr is the substring of str, false otherwise
 
 
