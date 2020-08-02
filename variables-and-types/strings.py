@@ -23,6 +23,3 @@ def is_substring(str, substr):
         ans = substr in str
         return ans
     # return true if substr is the substring of str, false otherwise
-
-
-
